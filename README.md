@@ -23,7 +23,7 @@
 
 #### Configure
 
-Change the project name in the following files:
+To change application's name, change "starter" in the following files:
 * package.json
 * ionic.project
 * config.xml
@@ -31,5 +31,3 @@ Change the project name in the following files:
 * jade/index.jade
 * www/js/app.js
 * www/js/routes.js
-* www/js/controllers/controllers.js
-
