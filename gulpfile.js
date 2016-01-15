@@ -48,6 +48,7 @@ gulp.task('jade', done => {
     .pipe(jade({
       pretty: true
     }))
+    .on('error', console.error)
     .pipe(gulp.dest('www'))
     .on('end', () => injectResources(done));
 });
